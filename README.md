@@ -45,6 +45,10 @@ Setup application configurations
 
 **Beginner guide to setup [AWS Elastic Beanstalk Deployment](https://www.youtube.com/watch?v=aTQbyBUNoms&t=246s)**
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/34c23c15-f5b1-4c5b-889c-88fad09a6279" alt="Screenshot"/>
+</p>
+
 <hr>
 
 >Please feel free to follow this guide if you want to learn more on how to deploy this application with Jenkins CI/CD
