@@ -38,12 +38,15 @@ Setup application configurations
 
 ***Leave any other settings as default***
 
+> [!IMPORTANT]  
 > If any event fails or you are using elastic beanstalk first time, you need to create new role in IAM service called aws-elasticbeanstalk-ec2-role. Set following permissions.<br>
->1. AWSElasticBeanstalkMulticontainerDocker
->2. AWSElasticBeanstalkWebTier
->3. AWSElasticBeanstalkWorkerTier
+> 1. AWSElasticBeanstalkMulticontainerDocker
+> 2. AWSElasticBeanstalkWebTier
+> 3. AWSElasticBeanstalkWorkerTier
 
 **Beginner guide to setup [AWS Elastic Beanstalk Deployment](https://www.youtube.com/watch?v=aTQbyBUNoms&t=246s)**
+
+# Final Result
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/34c23c15-f5b1-4c5b-889c-88fad09a6279" alt="Screenshot"/>
@@ -51,7 +54,8 @@ Setup application configurations
 
 <hr>
 
->Please feel free to follow this guide if you want to learn more on how to deploy this application with Jenkins CI/CD
+> [!TIP]
+> Please feel free to follow this [guide](https://mrcloudbook.com/deploying-2048-game-on-docker-and-kubernetes-with-jenkins-ci-cd/#more-1813) if you want to learn more on how to deploy this application with Jenkins CI/CD
 
 <hr>
 
