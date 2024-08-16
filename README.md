@@ -28,15 +28,23 @@ Login to AWS management console. Navigate to Elastic Beanstalk Service --> Creat
 #### Step 06:
 Setup application configurations
 
-1. Application name: 2048
-2. Application tags: Key:Game, Value:2048
-3. Domain: (leave blank or set any available domain name)
-4. Platform: Docker
-5. Application code: Local file --> upload Dockerfile
-6. Presets: Single instance
-7. Next --> skip to review --> Submit
+1. Environment tier: WebServer
+2. Application name: 2048
+3. Application tags: Key:Game, Value:2048
+4. Domain: (leave blank or set any available domain name)
+5. Platform: Docker
+6. Platform Branch: Docker running on 64bit Amazon Linux 2023
+7. Application code: Upload your code --> Local file --> upload Dockerfile
+8. Presets: Single instance
+9. Service role: Use existing --> set service-role --> set ec2-role (ec2 key pair is not required)
+10. Next --> skip to review --> Submit
 
 ***Leave any other settings as default***
+
+> [!IMPORTANT]  
+> If any event fails or you are using elastic beanstalk first time, you need to create new role in IAM service called aws-elasticbeanstalk-service-role. Set following permissions.<br>
+> 1. AWSElasticBeanstalkEnhancedHealth
+> 2. AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy
 
 > [!IMPORTANT]  
 > If any event fails or you are using elastic beanstalk first time, you need to create new role in IAM service called aws-elasticbeanstalk-ec2-role. Set following permissions.<br>
